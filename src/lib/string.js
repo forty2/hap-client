@@ -5,7 +5,7 @@ function* splitGen(delimiter, limit = null) {
 
     let re = delimiter;
     if (typeof delimiter === 'string') {
-        regex = new RegExp(delimiter);
+        re = new RegExp(delimiter);
     }
 
     if (re.constructor !== RegExp) {

@@ -24,6 +24,7 @@
   "author": "Zach Bean <zb@forty2.com>",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.14.0",
     "babel-plugin-syntax-function-bind": "^6.13.0",
     "babel-plugin-transform-function-bind": "^6.8.0",

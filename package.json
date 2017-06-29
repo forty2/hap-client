@@ -1,6 +1,6 @@
 {
   "name": "hap-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Control HomeKit-enabled devices with Node",
   "main": "dist/HapClient.js",
   "repository": {

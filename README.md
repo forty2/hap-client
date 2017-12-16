@@ -35,7 +35,7 @@ import HapClient from 'hap-client';
 const client = new HapClient('My Client Name', ip, port);
 ```
 
-In general, the easiest way to pair with a new device is to use `hap-client-pair` from the [hap-client-tools](https://npmjs.org/package/hap-client-tools/) package.  However, if you want to implement it yourself, you can use the `pair()` method:
+In general, the easiest way to pair with a new device is to use `hap-client-pair` from the [hap-client-tool](https://npmjs.org/package/hap-client-tool/) package.  However, if you want to implement it yourself, you can use the `pair()` method:
 
 ```javascript
 import HapClient from 'hap-client';
